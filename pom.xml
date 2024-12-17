@@ -2,35 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.jackchen</groupId>
-  <artifactId>logic</artifactId>
+  <artifactId>baselib</artifactId>
   <version>1.0.1-SNAPSHOT</version>
   <packaging>aar</packaging>
-  <repositories>
-    <repository>
-      <id>central</id>
-      <url>https://repo1.maven.org/maven2</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
-
-  <pluginRepositories>
-    <pluginRepository>
-      <id>central</id>
-      <url>https://repo1.maven.org/maven2</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </pluginRepository>
-  </pluginRepositories>
-
   <build>
     <plugins>
       <plugin>
@@ -51,9 +25,9 @@
   </build>
   <dependencies>
     <dependency>
-      <groupId>com.github.Jack007-Li</groupId>
-      <artifactId>logic</artifactId>
-      <version>1.0.7</version>
+      <groupId>com.github.megatronking.stringfog</groupId>
+      <artifactId>xor</artifactId>
+      <version>5.0.0</version>
     </dependency>
   </dependencies>
 </project>
