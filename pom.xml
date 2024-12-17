@@ -23,4 +23,13 @@
       </plugin>
     </plugins>
   </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.github.megatronking.stringfog</groupId>
+      <artifactId>xor</artifactId>
+      <version>5.0.0</version>
+    </dependency>
+  </dependencies>
+
 </project>
